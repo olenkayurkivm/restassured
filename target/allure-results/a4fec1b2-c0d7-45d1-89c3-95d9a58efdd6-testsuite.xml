@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1538427122947" stop="1538427145204" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : finance</name>
+    <title>Default Suite : finance</title>
+    <test-cases>
+        <test-case start="1538427123086" stop="1538427145174" status="passed">
+            <name>testFinance</name>
+            <steps>
+                <step start="1538427130223" stop="1538427130376" status="passed">
+                    <name>getIndexNameOf[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130377" stop="1538427130444" status="passed">
+                    <name>getIndexNameOf[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130445" stop="1538427130511" status="passed">
+                    <name>getIndexNameOf[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130512" stop="1538427130568" status="passed">
+                    <name>getIndexNameOf[3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130569" stop="1538427130617" status="passed">
+                    <name>getIndexNameOf[4]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130624" stop="1538427130681" status="passed">
+                    <name>getIndexAbsoluteChangeOf[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130682" stop="1538427130733" status="passed">
+                    <name>getIndexAbsoluteChangeOf[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130734" stop="1538427130789" status="passed">
+                    <name>getIndexAbsoluteChangeOf[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130790" stop="1538427130844" status="passed">
+                    <name>getIndexAbsoluteChangeOf[3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130845" stop="1538427130894" status="passed">
+                    <name>getIndexAbsoluteChangeOf[4]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130896" stop="1538427130944" status="passed">
+                    <name>getIndexRelativeChangeOf[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130944" stop="1538427130988" status="passed">
+                    <name>getIndexRelativeChangeOf[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427130990" stop="1538427131036" status="passed">
+                    <name>getIndexRelativeChangeOf[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427131037" stop="1538427131078" status="passed">
+                    <name>getIndexRelativeChangeOf[3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427131079" stop="1538427131127" status="passed">
+                    <name>getIndexRelativeChangeOf[4]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427131652" stop="1538427133114" status="passed">
+                    <name>clickOnIndexOf[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427133115" stop="1538427133164" status="passed">
+                    <name>getIndexOpenValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427133164" stop="1538427133188" status="passed">
+                    <name>getIndexMaxValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427133189" stop="1538427133233" status="passed">
+                    <name>getIndexMinValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427133764" stop="1538427135601" status="passed">
+                    <name>clickOnIndexOf[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427135602" stop="1538427135645" status="passed">
+                    <name>getIndexOpenValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427135646" stop="1538427135669" status="passed">
+                    <name>getIndexMaxValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427135669" stop="1538427135705" status="passed">
+                    <name>getIndexMinValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427136235" stop="1538427137543" status="passed">
+                    <name>clickOnIndexOf[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427137544" stop="1538427137593" status="passed">
+                    <name>getIndexOpenValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427137593" stop="1538427137616" status="passed">
+                    <name>getIndexMaxValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427137616" stop="1538427137648" status="passed">
+                    <name>getIndexMinValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427138155" stop="1538427139384" status="passed">
+                    <name>clickOnIndexOf[3]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427139385" stop="1538427139430" status="passed">
+                    <name>getIndexOpenValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427139431" stop="1538427139457" status="passed">
+                    <name>getIndexMaxValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427139457" stop="1538427139490" status="passed">
+                    <name>getIndexMinValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427139955" stop="1538427141404" status="passed">
+                    <name>clickOnIndexOf[4]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427141404" stop="1538427141447" status="passed">
+                    <name>getIndexOpenValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427141447" stop="1538427141469" status="passed">
+                    <name>getIndexMaxValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1538427141470" stop="1538427141500" status="passed">
+                    <name>getIndexMinValue</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="finance"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="testFinance"/>
+                <label name="host" value="skywalker"/>
+                <label name="thread" value="22011@skywalker.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
