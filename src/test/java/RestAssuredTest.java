@@ -172,6 +172,53 @@ public class RestAssuredTest {
                 //.extract().body().as(SomePojo.class); this must be some object class
     }
 
+    @Test
+    public void test10() throws Exception{
+        RestAssured.baseURI = "https://samples.openweathermap.org/data/2.5";
+        String coord = given()
+                .get("/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22")
+                .then()
+                //.extract().path("coord").toString();
+                .extract().response().path("coord").toString();
+        LOG.info(coord);
+    }
+    //OpenWeatherMap api key: fd4698c940c6d1da602a70ac34f0b147
+
+    @Test
+    public void test11() throws Exception{
+        RestAssured.baseURI = "http://petstore.swagger.io/v2";
+        RequestSpecBuilder requestBuilder = new RequestSpecBuilder();
+        requestBuilder
+                .setContentType(ContentType.JSON)
+                .setAccept(ContentType.JSON)
+                .setBody("{\n" +
+                        "  \"id\": 123,\n" +
+                        "  \"category\": {\n" +
+                        "    \"id\": 123,\n" +
+                        "    \"name\": \"test\"\n" +
+                        "  },\n" +
+                        "  \"name\": \"fluffy\",\n" +
+                        "  \"photoUrls\": [\n" +
+                        "    \"string\"\n" +
+                        "  ],\n" +
+                        "  \"tags\": [\n" +
+                        "    {\n" +
+                        "      \"id\": 0,\n" +
+                        "      \"name\": \"string\"\n" +
+                        "    }\n" +
+                        "  ],\n" +
+                        "  \"status\": \"available\"\n" +
+                        "}");
+        String id = given().spec(requestBuilder.build())
+                //.contentType(ContentType.ANY).accept(ContentType.ANY)
+                .get("/pet")
+                .then()
+                .statusCode(200)
+                .extract().path("id").toString();
+        LOG.info(id);
+    }
+
+
 
 
 //    @AfterMethod(alwaysRun = true)
