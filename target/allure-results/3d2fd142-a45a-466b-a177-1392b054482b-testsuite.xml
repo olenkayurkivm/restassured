@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556189506276" stop="1556189599111" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556189507130" stop="1556189537850" status="passed">
+            <name>checkUserCanTypeInNameField[тест]</name>
+            <steps>
+                <step start="1556189531191" stop="1556189534194" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189534196" stop="1556189536674" status="passed">
+                    <name>fillContactForm[тест, test@test.com, TestCompanyName, , Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189536679" stop="1556189536965" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189536967" stop="1556189537825" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInNameField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="11248@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556189537859" stop="1556189545936" status="passed">
+            <name>checkUserCanTypeInNameField[test]</name>
+            <steps>
+                <step start="1556189540048" stop="1556189542853" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189542854" stop="1556189545040" status="passed">
+                    <name>fillContactForm[test, test@test.com, TestCompanyName, , Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189545043" stop="1556189545273" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189545275" stop="1556189545936" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInNameField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="11248@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556189545940" stop="1556189556041" status="passed">
+            <name>checkUserCanTypeInNameField[12345]</name>
+            <steps>
+                <step start="1556189547680" stop="1556189553378" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189553379" stop="1556189555182" status="passed">
+                    <name>fillContactForm[12345, test@test.com, TestCompanyName, , Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189555190" stop="1556189555380" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189555381" stop="1556189556041" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInNameField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="11248@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556189556044" stop="1556189563036" status="passed">
+            <name>checkUserCanTypeInNameField[test12345]</name>
+            <steps>
+                <step start="1556189557706" stop="1556189560455" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189560456" stop="1556189562315" status="passed">
+                    <name>fillContactForm[test12345, test@test.com, TestCompanyName, , Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189562316" stop="1556189562494" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189562496" stop="1556189563035" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInNameField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="11248@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556189563039" stop="1556189569953" status="passed">
+            <name>checkUserCanTypeInNameField[!@#$%^&amp;*]</name>
+            <steps>
+                <step start="1556189564503" stop="1556189567262" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189567263" stop="1556189569187" status="passed">
+                    <name>fillContactForm[!@#$%^&amp;*, test@test.com, TestCompanyName, , Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189569196" stop="1556189569399" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556189569402" stop="1556189569953" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInNameField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="11248@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556189569956" stop="1556189598757" status="failed">
+            <name>checkUserCanTypeInNameField[        ]</name>
+            <failure>
+                <message>ElementNotFound: Element not found {div.contact-form__success}
+Expected: visible</message>
+                <stack-trace>Element not found {div.contact-form__success}
+Expected: visible
+Screenshot: file:/C:/Users/OYurkiv/Documents/AFBWebsiteTestProject/afbtest/build/reports/tests/1556189596929.0.png
+Page source: file:/C:/Users/OYurkiv/Documents/AFBWebsiteTestProject/afbtest/build/reports/tests/1556189596929.0.html
+Timeout: 20 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.contact-form__success"}
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:94)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:59)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:91)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:66)
+	at com.sun.proxy.$Proxy6.shouldBe(Unknown Source)
+	at pom.AFBMainPage.getGIT_SuccessText(AFBMainPage.java:444)
+	at FinanceTest.checkUserCanTypeInNameField(FinanceTest.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.contact-form__success"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NAZAR', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\OYurkiv\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:16462}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 165aa6866a4ef8ed35b7209b02c384e6
+*** Element info: {Using=css selector, value=div.contact-form__success}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:29)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:68)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:44)
+	... 33 more
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1556189571690" stop="1556189574450" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                </step>
+                <step start="1556189574451" stop="1556189576429" status="passed">
+                    <name>fillContactForm[        , test@test.com, TestCompanyName, , Test Requirements]</name>
+                </step>
+                <step start="1556189576431" stop="1556189576624" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                </step>
+                <step start="1556189576626" stop="1556189598673" status="failed">
+                    <name>getGIT_SuccessText</name>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInNameField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="11248@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

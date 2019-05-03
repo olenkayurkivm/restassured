@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556109760644" stop="1556109780836" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556109761256" stop="1556109780826" status="passed">
+            <name>checkGetInTouchSendButtonIsDisplayedAndClickable</name>
+            <steps>
+                <step start="1556109777589" stop="1556109780634" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556109780650" stop="1556109780749" status="passed">
+                    <name>isGIT_SendButtonDisplayed</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556109780769" stop="1556109780816" status="passed">
+                    <name>isGIT_SendButtonClickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkGetInTouchSendButtonIsDisplayedAndClickable"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="1356@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

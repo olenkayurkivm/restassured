@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1555937938364" stop="1555937959430" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1555937938876" stop="1555937959413" status="passed">
+            <name>testAFBContactForm</name>
+            <steps>
+                <step start="1555937956757" stop="1555937959401" status="passed">
+                    <name>fillContactForm</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="testAFBContactForm"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="2668@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

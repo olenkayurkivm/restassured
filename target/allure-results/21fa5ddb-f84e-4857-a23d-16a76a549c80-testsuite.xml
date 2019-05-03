@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556014320062" stop="1556014344934" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556014321156" stop="1556014341850" status="passed">
+            <name>checkHeaderMenuElementsAreClickable</name>
+            <steps>
+                <step start="1556014341066" stop="1556014341500" status="passed">
+                    <name>isHeaderWeDoClickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556014341520" stop="1556014341594" status="passed">
+                    <name>isHeaderWhoWeAreClickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556014341597" stop="1556014341738" status="passed">
+                    <name>isHeaderCustomersSayClickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556014341741" stop="1556014341844" status="passed">
+                    <name>isHeaderGetInTouchClickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkHeaderMenuElementsAreClickable"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="1792@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556014341859" stop="1556014344924" status="passed">
+            <name>checkHeaderMenuElementsAreDisplayed</name>
+            <steps>
+                <step start="1556014343809" stop="1556014343943" status="passed">
+                    <name>isHeaderWeDoDisplayed</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556014343946" stop="1556014344238" status="passed">
+                    <name>isHeaderWhoWeAreDisplayed</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556014344240" stop="1556014344854" status="passed">
+                    <name>isHeaderCustomersSayDisplayed</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556014344856" stop="1556014344924" status="passed">
+                    <name>isHeaderGetInTouchDisplayed</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkHeaderMenuElementsAreDisplayed"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="1792@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556023838437" stop="1556023857099" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556023838888" stop="1556023857081" status="passed">
+            <name>checkFloatMenu_05_ButtonNavigateToGetInTouchBlock</name>
+            <steps>
+                <step start="1556023853565" stop="1556023857063" status="passed">
+                    <name>clickOnFloatMenuItem[05]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkFloatMenu_05_ButtonNavigateToGetInTouchBlock"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="13076@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

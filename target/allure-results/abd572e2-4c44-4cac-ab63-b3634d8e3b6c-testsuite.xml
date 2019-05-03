@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556028530146" stop="1556028550131" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556028530663" stop="1556028550115" status="passed">
+            <name>checkWeDoReadButtonsAreClickable</name>
+            <steps>
+                <step start="1556028546474" stop="1556028549534" status="passed">
+                    <name>clickOnExploreButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556028549551" stop="1556028549700" status="passed">
+                    <name>isWeDo_01_ReadButtonClickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556028549717" stop="1556028549775" status="passed">
+                    <name>isWeDo_02_ReadButtonClickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556028549777" stop="1556028550106" status="passed">
+                    <name>isWeDo_03_ReadButtonClickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkWeDoReadButtonsAreClickable"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="14896@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

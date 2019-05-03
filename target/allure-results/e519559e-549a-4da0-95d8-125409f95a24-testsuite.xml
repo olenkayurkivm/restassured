@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556283929199" stop="1556283951934" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556283929677" stop="1556283951918" status="passed">
+            <name>checkSeeAlsoDesignButtonIsDisplayedAndClickableFor_QA_Page</name>
+            <steps>
+                <step start="1556283948208" stop="1556283949518" status="passed">
+                    <name>goToSecondLevelPage[http://18.218.182.166:3000/quality-assurance]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556283949536" stop="1556283951621" status="passed">
+                    <name>isSeeAlsoDesignButtonDisplayed</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556283951638" stop="1556283951908" status="passed">
+                    <name>isSeeAlsoDesignButtonClickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkSeeAlsoDesignButtonIsDisplayedAndClickableFor_QA_Page"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="1956@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556100218583" stop="1556100241762" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556100219078" stop="1556100241746" status="passed">
+            <name>checkUserCanEnterDataInGetInTouchFormInputFields</name>
+            <steps>
+                <step start="1556100235392" stop="1556100238415" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556100238419" stop="1556100241384" status="passed">
+                    <name>fillContactForm[Test Test, test@test.com, TestCompanyName, https://testcompany.com, Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556100241413" stop="1556100241481" status="passed">
+                    <name>getGIT_Name</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556100241498" stop="1556100241544" status="passed">
+                    <name>getGIT_Email</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556100241547" stop="1556100241624" status="passed">
+                    <name>getGIT_CompanyName</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556100241626" stop="1556100241698" status="passed">
+                    <name>getGIT_Website</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556100241705" stop="1556100241736" status="passed">
+                    <name>getGIT_Requirements</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanEnterDataInGetInTouchFormInputFields"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="5840@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

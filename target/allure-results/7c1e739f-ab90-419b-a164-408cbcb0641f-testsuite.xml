@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556796140135" stop="1556796165481" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556796141379" stop="1556796165459" status="passed">
+            <name>checkUserCanZoomTheMapInAndOut</name>
+            <steps>
+                <step start="1556796157874" stop="1556796160762" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556796160762" stop="1556796163009" status="passed">
+                    <name>geo_zoomIn</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556796163009" stop="1556796165365" status="passed">
+                    <name>geo_zoomOut</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556796165365" stop="1556796165438" status="passed">
+                    <name>isGIT_SendButtonDisplayed</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanZoomTheMapInAndOut"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="13288@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

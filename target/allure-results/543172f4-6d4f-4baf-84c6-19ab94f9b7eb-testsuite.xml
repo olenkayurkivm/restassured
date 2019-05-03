@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556279538934" stop="1556279559011" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556279539514" stop="1556279558991" status="passed">
+            <name>check2LevelReadMoreButton1IsDisplayedAndClickable</name>
+            <steps>
+                <step start="1556279554984" stop="1556279557937" status="passed">
+                    <name>goToSecondLevelPage[http://18.218.182.166:3000/software-development]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556279557961" stop="1556279558828" status="passed">
+                    <name>isReadMoreButton1Displayed</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556279558852" stop="1556279558981" status="passed">
+                    <name>isReadMoreButton1Clickable</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="check2LevelReadMoreButton1IsDisplayedAndClickable"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="16028@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

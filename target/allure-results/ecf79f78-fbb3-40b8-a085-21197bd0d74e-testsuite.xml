@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556099284268" stop="1556099305260" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556099285434" stop="1556099305250" status="passed">
+            <name>checkGetInTouchFormElementsBecomeFocusedAfterClickingOnThem</name>
+            <steps>
+                <step start="1556099300485" stop="1556099303660" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556099303674" stop="1556099303895" status="passed">
+                    <name>writeGIT_Name[[]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556099303905" stop="1556099304247" status="passed">
+                    <name>writeGIT_Email[[]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556099304247" stop="1556099304712" status="passed">
+                    <name>writeGIT_CompanyName[[]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556099304712" stop="1556099305003" status="passed">
+                    <name>writeGIT_Website[[]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556099305005" stop="1556099305223" status="passed">
+                    <name>writeGIT_Requirements[[]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkGetInTouchFormElementsBecomeFocusedAfterClickingOnThem"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="12912@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

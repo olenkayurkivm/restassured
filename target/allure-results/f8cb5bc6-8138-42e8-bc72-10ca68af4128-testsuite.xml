@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556018316139" stop="1556018334303" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556018316555" stop="1556018334282" status="passed">
+            <name>checkFloatMenuElementsAreDisplayed</name>
+            <steps>
+                <step start="1556018331989" stop="1556018332858" status="passed">
+                    <name>isFloatMenuItemDisplayed[00]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018332873" stop="1556018333057" status="passed">
+                    <name>isFloatMenuItemDisplayed[01]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018333060" stop="1556018333277" status="passed">
+                    <name>isFloatMenuItemDisplayed[02]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018333278" stop="1556018333665" status="passed">
+                    <name>isFloatMenuItemDisplayed[03]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018333665" stop="1556018334007" status="passed">
+                    <name>isFloatMenuItemDisplayed[04]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018334009" stop="1556018334273" status="passed">
+                    <name>isFloatMenuItemDisplayed[05]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkFloatMenuElementsAreDisplayed"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="14664@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

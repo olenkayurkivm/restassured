@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556192337396" stop="1556192387207" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556192337897" stop="1556192360754" status="passed">
+            <name>checkUserCanTypeInWebsiteField[тест]</name>
+            <steps>
+                <step start="1556192354672" stop="1556192357512" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192357515" stop="1556192359513" status="passed">
+                    <name>fillContactForm[Test Test, test@test.com, TestCompanyName, тест, Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192359518" stop="1556192359712" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192359716" stop="1556192360733" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInWebsiteField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="8320@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556192360768" stop="1556192367820" status="passed">
+            <name>checkUserCanTypeInWebsiteField[test]</name>
+            <steps>
+                <step start="1556192362456" stop="1556192365096" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192365098" stop="1556192367046" status="passed">
+                    <name>fillContactForm[Test Test, test@test.com, TestCompanyName, test, Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192367047" stop="1556192367242" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192367244" stop="1556192367820" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInWebsiteField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="8320@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556192367830" stop="1556192374370" status="passed">
+            <name>checkUserCanTypeInWebsiteField[12345]</name>
+            <steps>
+                <step start="1556192369367" stop="1556192371992" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192371992" stop="1556192373599" status="passed">
+                    <name>fillContactForm[Test Test, test@test.com, TestCompanyName, 12345, Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192373602" stop="1556192373813" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192373816" stop="1556192374370" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInWebsiteField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="8320@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556192374374" stop="1556192380801" status="passed">
+            <name>checkUserCanTypeInWebsiteField[test12345]</name>
+            <steps>
+                <step start="1556192375735" stop="1556192378320" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192378320" stop="1556192380052" status="passed">
+                    <name>fillContactForm[Test Test, test@test.com, TestCompanyName, test12345, Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192380054" stop="1556192380220" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192380222" stop="1556192380800" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInWebsiteField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="8320@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1556192380804" stop="1556192387184" status="passed">
+            <name>checkUserCanTypeInWebsiteField[!@#$%^&amp;*]</name>
+            <steps>
+                <step start="1556192382218" stop="1556192384884" status="passed">
+                    <name>clickOnHeaderGetInTouch</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192384884" stop="1556192386543" status="passed">
+                    <name>fillContactForm[Test Test, test@test.com, TestCompanyName, !@#$%^&amp;*, Test Requirements]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192386544" stop="1556192386719" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556192386722" stop="1556192387183" status="passed">
+                    <name>getGIT_SuccessText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkUserCanTypeInWebsiteField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="8320@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

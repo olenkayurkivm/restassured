@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556018353594" stop="1556018371863" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556018354081" stop="1556018371832" status="passed">
+            <name>checkFloatMenuElementsAreClickable</name>
+            <steps>
+                <step start="1556018370033" stop="1556018370767" status="passed">
+                    <name>isFloatMenuItemClickable[00]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018370784" stop="1556018370974" status="passed">
+                    <name>isFloatMenuItemClickable[01]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018370975" stop="1556018371153" status="passed">
+                    <name>isFloatMenuItemClickable[02]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018371154" stop="1556018371391" status="passed">
+                    <name>isFloatMenuItemClickable[03]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018371393" stop="1556018371629" status="passed">
+                    <name>isFloatMenuItemClickable[04]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556018371629" stop="1556018371832" status="passed">
+                    <name>isFloatMenuItemClickable[05]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkFloatMenuElementsAreClickable"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="1084@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

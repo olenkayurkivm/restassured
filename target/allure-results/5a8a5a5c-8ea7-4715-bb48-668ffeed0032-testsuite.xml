@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1556102648444" stop="1556102671367" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : afbtest</name>
+    <title>Default Suite : afbtest</title>
+    <test-cases>
+        <test-case start="1556102649931" stop="1556102671350" status="passed">
+            <name>checkErrorMessageAppearsIfUserTriesToSendRequestWithEmptyRequirementsField</name>
+            <steps>
+                <step start="1556102667330" stop="1556102670421" status="passed">
+                    <name>fillContactForm[Test Test, test@test.com, TestCompanyName, https://testcompany.com, ]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556102670428" stop="1556102671068" status="passed">
+                    <name>clickOnGIT_SendButton</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1556102671071" stop="1556102671332" status="passed">
+                    <name>getGIT_ErrorText</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="afbtest"/>
+                <label name="testClass" value="FinanceTest"/>
+                <label name="testMethod" value="checkErrorMessageAppearsIfUserTriesToSendRequestWithEmptyRequirementsField"/>
+                <label name="host" value="Nazar"/>
+                <label name="thread" value="10808@Nazar.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
