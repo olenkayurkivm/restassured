@@ -127,6 +127,8 @@
                 <suiteXmlFiles>
                     <suiteXmlFile>${suiteFile}</suiteXmlFile>
                 </suiteXmlFiles>
+                <!--<parallel>methods</parallel>-->
+                <!--<threadCount>3</threadCount>-->
             </configuration>
             <dependencies>
                 <dependency>
