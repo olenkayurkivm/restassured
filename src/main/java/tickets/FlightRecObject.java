@@ -1,11 +1,12 @@
 package tickets;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by OYurkiv on 6/12/2019.
  */
-public class FlightRecObject {
+public class FlightRecObject implements Serializable {
     private String aviaCompanyName;
     private List<String> raceNumbers;
     private String price;
@@ -32,5 +33,14 @@ public class FlightRecObject {
 
     public void setPrice(String price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "FlightRecObject{" +
+                "aviaCompanyName='" + aviaCompanyName + '\'' +
+                ", raceNumbers=" + raceNumbers +
+                ", price='" + price + '\'' +
+                '}';
     }
 }

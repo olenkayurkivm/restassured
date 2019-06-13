@@ -5,13 +5,19 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pom.AbstractPage;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.switchTo;
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static com.codeborne.selenide.WebDriverRunner.setWebDriver;
+import static com.codeborne.selenide.WebDriverRunner.url;
 
 /**
  * Created by OYurkiv on 6/12/2019.
@@ -30,8 +36,8 @@ public class TicketsAbstractPage {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriverv74.exe");
         Configuration.browser = "chrome";
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("chrome.switches","--disable-search-geolocation-disclosure");
-        options.addArguments("chrome.switches","--disable-notifications");
+        //options.addArguments("chrome.switches","--disable-search-geolocation-disclosure");
+        //options.addArguments("chrome.switches","--disable-notifications");
         options.addArguments("--start-maximized");
         Map<String, Object> prefs = new HashMap<>();
         //prefs.put("profile.managed_default_content_settings.geolocation", 2);
@@ -57,4 +63,17 @@ public class TicketsAbstractPage {
 
         open(TICKETS_URL);
     }
+
+    public void switchToAnotherWindow()throws Exception{
+        String parent_handle = getWebDriver().getWindowHandle();
+        new WebDriverWait(getWebDriver(),10).until(ExpectedConditions.numberOfWindowsToBe(2));
+        Set<String> handles = getWebDriver().getWindowHandles();
+        for(String handle1:handles)
+            if(!parent_handle.equals(handle1))
+            {
+                switchTo().window(handle1);
+            }
+    }
+
+
 }

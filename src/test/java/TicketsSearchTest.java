@@ -1,7 +1,9 @@
 import com.codeborne.selenide.Selenide;
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+import tickets.TicketsSearchBO;
 import tickets.TicketsSearchPage;
 
 /**
@@ -9,16 +11,20 @@ import tickets.TicketsSearchPage;
  */
 public class TicketsSearchTest {
     final static Logger LOG = Logger.getLogger(TicketsSearchTest.class);
-    TicketsSearchPage ticketsSearchPage;
+    //TicketsSearchPage ticketsSearchPage;
+    TicketsSearchBO ticketsSearchBO;
 
 
 
     @Test
     public void searchFlights() throws Exception{
-        ticketsSearchPage = new TicketsSearchPage();
-        String url = ticketsSearchPage.searchForFlights("from", "to");
-        LOG.info(url);
-        ticketsSearchPage.parseResults();
+        ticketsSearchBO = new TicketsSearchBO();
+        ticketsSearchBO.searchForFlights("from", "Киев");
+//        ticketsSearchPage = new TicketsSearchPage();
+//        String url = ticketsSearchPage.searchForFlights("from", "Киев");
+//        LOG.info(url);
+        int actualNumberOfRecommendations = ticketsSearchBO.getRecommendedFlights();
+        Assert.assertTrue(actualNumberOfRecommendations>0);
     }
 
     @AfterMethod(alwaysRun = true)
